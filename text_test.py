@@ -74,7 +74,7 @@ def test():
     print("Time usage:%.3f seconds...\n"%(time.time() - t1))
 
 if __name__ == '__main__':
-    print('Configuring CNN model...')
+    print('Configuring Conv_BiLstm model...')
     config = TextConfig()
     filenames = [config.train_filename, config.test_filename, config.val_filename]
     if not os.path.exists(config.vocab_filename):
